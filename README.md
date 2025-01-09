@@ -11,8 +11,8 @@ npm run dev
 Backend project instructions 
 ```js
 cd BE
-npm install
-npm start
+dotnet restore
+-- Open Project using solution file
 ```
 
 
