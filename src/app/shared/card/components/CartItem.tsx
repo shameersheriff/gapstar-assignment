@@ -1,3 +1,5 @@
+import Image from "../../image/Image";
+
 const CartItem = ({
   icon,
   title,
@@ -11,7 +13,7 @@ const CartItem = ({
     <div className="w-full flex flex-row justify-between">
       <div className="flex flex-row items-center gap-[8px]">
         <div className="h-[24px] w-[24px] rounded-[2px]">
-          <img src={icon} />
+          <Image url={icon} />
         </div>
         <div className="text-[14px] font-[400]">{title}</div>
       </div>

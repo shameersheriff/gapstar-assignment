@@ -14,7 +14,7 @@ const Card = ({
 }) => {
   return (
     <div
-      className="card-container bg-white w-full"
+      className="card-container bg-white w-full h-full"
       style={{ backgroundColor: "white" }}
     >
       <CardTitle title={title} jobs={jobs} />
