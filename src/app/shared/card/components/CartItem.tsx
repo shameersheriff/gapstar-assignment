@@ -1,5 +1,3 @@
-import React from "react";
-
 const CartItem = ({
   icon,
   title,
@@ -12,7 +10,7 @@ const CartItem = ({
   return (
     <div className="w-full flex flex-row justify-between">
       <div className="flex flex-row">
-        <div className="icon">{icon}</div>
+        <div className="icon"><img src={icon} /></div>
         <div className="title">{title}</div>
       </div>
       <div className="jobs">{jobs}</div>

@@ -1,8 +1,8 @@
 const CardTitle = ({ title, jobs }: { title: string; jobs: number }) => {
   return (
-    <div className="flex flex-row justify-between">
-      <div className="">{title}</div>
-      <div className="">{jobs}</div>
+    <div className="flex flex-row justify-between mb-4">
+      <div className="text-[16px] font-[600]">{title}</div>
+      <div className="text-[#64748B]">{jobs}</div>
     </div>
   );
 };

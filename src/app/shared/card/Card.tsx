@@ -19,7 +19,7 @@ const Card = ({
     >
       <CardTitle title={title} jobs={jobs} />
       <CardHeader />
-      {children}
+      <div className="flex flex-col gap-[16px]">{children}</div>
     </div>
   );
 };
