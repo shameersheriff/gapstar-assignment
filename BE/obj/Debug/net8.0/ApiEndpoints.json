@@ -1,0 +1,13 @@
+[
+  {
+    "ContainingType": "GapstarAssessment_BE.Controllers.CompanyController",
+    "Method": "Get",
+    "RelativePath": "Company",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetCompanies"
+  }
+]
