@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import CardTitle from "./components/CardTitle";
-import "./Card.css";
-import CardHeader from "./components/CardHeader";
+import CompanyInfo from "./components/CompanyInfo";
 
 const Card = ({
   children,
@@ -14,11 +13,11 @@ const Card = ({
 }) => {
   return (
     <div
-      className="card-container bg-white w-full h-full"
+      className="p-[16px] rounded-[8px] bg-white w-full h-full"
       style={{ backgroundColor: "white" }}
     >
       <CardTitle title={title} jobs={jobs} />
-      <CardHeader />
+      <CompanyInfo />
       <div className="flex flex-col gap-[16px]">{children}</div>
     </div>
   );

@@ -7,7 +7,7 @@ const Image = ({ url }: { url: string }) => {
       src={imageURL}
       onError={(e: any) => {
         e.target.onerror = null;
-        setImageURL("../../../../public/image/placeholder.jpg");
+        setImageURL("/image/placeholder.jpg");
       }}
     />
   );
